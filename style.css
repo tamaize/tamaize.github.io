@@ -1,0 +1,86 @@
+/* Reseting css */
+* { box-sizing:border-box;}
+body { background: #f9fdff; color:#09204C; margin:0; font-family:Inter; }
+a,h1,h2,h3,h4,h5,form,p { margin:0; text-decoration:none}
+a { color: dodgerblue}
+
+/* left wrapper */
+#left-wrapper { display:inline-block; float:left; height:100%; width:125px; text-align:center; position:fixed; top:0; left:0;background:#fff; border-right:1px solid #eee;} 
+.header-nav { padding:30px 20px 30px 20px;}
+.header-nav .icon-logo { font-size:30px; font-family:Source Sans Pro; display:inline-block; border:2px solid #ffd32a; padding:10px; color:#09204C; font-weight:900 }
+.header-nav ul.social-media { display:inline-block; margin:30px 0 0 0; padding:0; }
+.header-nav ul.social-media li { display:inline-block;margin:0; padding:15px 10px 15px 10px; font-size:40px}
+.header-nav ul.social-media li a { color: #000;}
+
+/* right wrapper */
+#right-wrapper { display:inline-block; float:right; width:calc(100% - 125px); }
+h3.heading { font-size:25px; padding:10px 0 10px 0}
+h4.heading { font-size:23px; font-weight:600; padding:30px 0 0 0;}
+h4.heading p { font-weight:normal; font-size:20px; margin-top:10px;}
+.header { color:#eee; padding:150px 30px 150px 30px; text-align:center; background: url(https://www.mmppicture.co.in/wp-content/uploads/2020/08/Blur-Background-14-768x968.jpg); background-size:100%; border-radius:0 0 50px 50px; }
+.header .profil-picture { display:inline-block; padding:10px; border-radius:100%; border:2px solid #ffd32a; width:200px; height:200px}
+.header .profil-picture img { width:100%; height:100%; border-radius:100%;}
+.header p { margin-top:20px; font-size:15px; font-weight:400}
+.header h1 { margin-top:15px; Font-weight:900; font-size:25px}
+.header h4 { margin-top:15px; font-size:15px; font-weight:500}
+.header h4 span { font-weight:400;}
+.header .callme{ margin-top:20px;}
+.header .callme a { font-weight:700; display:inline-block; padding:10px 20px 10px 20px; background:#ffd32a; color:#09204C; border-radius:80px}
+section { display:block;overflow:hidden; padding:50px 30px 30px 30px;}
+.aboutme { overflow:hidden; margin-top:20px; background:#fff; box-shadow:0 0 20px 0 #e1e1e1; padding:30px; border-radius:10px;}
+.aboutme p { display:inline-block; width:calc(50% - 30px); padding:15px; float:left; line-height:25px}
+.aboutme p img { width:80px; height:80px; border-radius:100%; display:inline; float:left; margin:0 15px 15px 0 }
+.aboutme p b { font-weight:600;}
+.skills { background:#f6f6f6; border-radius:10px; display:inline-block; width:50%; float:right; margin:0;width:calc(50% - 30px); padding:15px; }
+.skills li { display:block; padding:0; margin:0 0 15px 0;}
+.skills li b { display:block; }
+.skills li b span { font-weight:400; float:right;}
+.skills li .skillbar { border-radius:10px; overflow:hidden; margin-top:5px; height:5px; width:100%; background:#eee;}
+.skills li .skillbar bar { display:block; background:#ffd32a; height:5px; border-radius:0 30px 30px 0;}
+.timeline {margin-top:20px; display:inline-block; width:calc(50% - 30px);}
+.timeline1 {float:left;}
+.timeline2 { float:right;}
+.timeline h4 { color:#ccc; font-weight:600}
+.timeline h4 span { float:right;}
+.timeline ul { list-style: none; padding:0; counter-reset: list; }    
+.timeline  ul li { position:relative; padding: 2rem 0 0; border-left: 2px solid #ffd32a }
+.timeline ul li:first-child {  padding: 0;   }
+.timeline ul li .content {  position: relative;  margin: 0 0 0 30px; counter-increment: list;   background:#fff; box-shadow:0 0 20px 0 #e1e1e1; padding:30px; border-radius:10px; }
+.timeline ul li .content:before {  content:"";   position: absolute;  top: 50%;   left: -40.5px; width: 20px;height: 20px; color: #ffd32a; text-align: center;line-height: 20px; border-radius: 50%; transition: 0.3s;background: #ffd32a; }   
+.timeline ul li .content h2 { color: #09204C;   font-size: 17px;  margin-bottom: 10px;  }
+.abilities{display:flex; margin:20px -10px 0 -10px}
+.abilities-inner { background:transaprent; border-radius:10px; display:inline-block; width:calc(50% - 22px); margin:0 10px 0 10px; line-height:25px;border:1px solid #09204C; float:left;}
+.abilities-inner h5 { font-size:20px; display:block; padding:15px; border-bottom:1px solid #eee;}
+.abilities-inner .skills { background:transparent; display:block; float:none margin:0;width:100%; padding:15px; }
+.abilities-inner .skills b { font-weight:600;}
+.services { display:flex; text-align:center; overflow:auto; margin:20px -15px 0 -15px; }
+.services a { text-align:left;overflow:auto; border-radius:10px; margin:10px;  display:inline-block; border:2px solid #09204C; width:calc(33% - 4px);color:#09204C;}
+.services a img { border-bottom:1px solid #ddd}
+.services a h4 { padding:30px 40px 10px 40px; color: #09204C; margin-bottom:10px; font-size:17px;}
+.services a p { padding:10px 40px 40px 40px;  }
+
+.footer {text-align:center;margin-top:100px; padding:30px; font-weight:600; border-top:1px solid #eee;}
+
+
+@media(max-width:700px) { 
+#left-wrapper { display:block; width:100%; height:auto; float:none; position:static; top:0; left:0;background:transparent; border-right:none;}
+.header-nav { padding:15px; text-align:left;}
+.header-nav .icon-logo { font-size:18px;}
+.header-nav ul.social-media { margin:0; padding:0; float:right}
+.header-nav ul.social-media li { padding:5px 10px 5px 10px; font-size:30px}
+#right-wrapper { display:block; width:100%; float:none;}
+.header { padding:30px; }
+.aboutme p { display:block; width:100%; padding:0 0 30px 0; float:none; border-bottom:1px dashed #eee }
+.abilities{display:block; margin:20px 0 0 0}
+.abilities-inner { display:block; width:100%; padding:0; margin:0; float:none;}
+.abilities .abilities-inner:nth-child(1) { margin-bottom:30px;}
+.skills { background:transparent;display:block; width:100%; float:none; margin:0; padding:30px 0 0 0; }
+.timeline {margin-top:20px; display:block; width:100%;}
+section .timeline:nth-child(2) { float:none;}
+section .timeline:nth-child(3) { float:none}
+.services { display:block;margin:0; margin-top:30px; padding:0; box-shadow:none; background:transparent; }
+.services a { margin:0 0 40px 0; background:transparent; display:block; width:calc(100% - 2px); height:auto;}
+.services a .iconser { margin:0px 0 30px 0; font-size:100px;}
+.desktop-only { position:absolute; top:-200%; }
+}
+
