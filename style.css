@@ -69,7 +69,7 @@ section { display:block;overflow:hidden; padding:50px 30px 30px 30px;}
 .header-nav ul.social-media { margin:0; padding:0; float:right}
 .header-nav ul.social-media li { padding:5px 10px 5px 10px; font-size:30px}
 #right-wrapper { display:block; width:100%; float:none;}
-.header { padding:30px; }
+.header { padding:80px 30px 80px 30px }
 .aboutme p { display:block; width:100%; padding:0 0 30px 0; float:none; border-bottom:1px dashed #eee }
 .abilities{display:block; margin:20px 0 0 0}
 .abilities-inner { display:block; width:100%; padding:0; margin:0; float:none;}
